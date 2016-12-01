@@ -1,34 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="res/style.css">
-    <link rel="icon" href="res/luna-moth.svg" type="image/svg+xml">
-    <link rel="icon" href="res/luna-moth.png" type="image/png">
-
-    <script src="res/common.js"></script>
-    <script src="res/terminal.js"></script>
-    <script src="res/overview.js"></script>
-    <script src="res/messages.js"></script>
-    <script src="res/puzzles.js"></script>
-    <script src="res/main.js"></script>
-    <script src="res/md5.min.js" async></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="images/luna-moth.svg" type="image/svg+xml">
+    <link rel="icon" href="images/luna-moth.png" type="image/png">
 
     <title>MOTH Dashboard</title>
   </head>
   <body>
-    <div id="overview" class="terminal">
-      <h1>Monarch Of The Hill</h1>
-      <p>Brought to you by dirtbags.net</p>
+    <div class="row">
+      <div id="title" class="material span1">
+        <h1>Monarch Of The Hill</h1>
+        <p>Brought to you by dirtbags.net</p>
+      </div>
     </div>
-    <div id="messages" class="terminal">
-      If you turn on JavaScript this will look a lot cooler.
+    <div class="row">
+      <div id="nav" class="material span3">
+        Puzzles
+        <input type="text" class="form-control"></input>
+      </div>
+      <div id="main" class="material span9">
+        You find yourself in an open field...
+      </div>
     </div>
-    <div id="puzzles" class="terminal">
-      🌮 🌮 🌮 🌮 🌮 🌮 🌮 🌮
+    <div class="modal fade">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title">Modal title</h4>
+          </div>
+          <div class="modal-body">
+            <div id="terminal" class="material">
+              <div id="chat">
+              </div>
+              <div id="input">
+              </div>
+              If you turn on JavaScript this will look a lot cooler.
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="butotn" class="btn btn-secondary" data-dismiss="modal">Close></button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="main" class="terminal">
-    </div>
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="scripts/common.js"></script>
+    <script src="scripts/terminal.js"></script>
+    <script src="scripts/overview.js"></script>
+    <script src="scripts/messages.js"></script>
+    <script src="scripts/puzzles.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/md5.min.js" async></script>
+    <script src="scripts/index.js"></script>
   </body>
 </html>

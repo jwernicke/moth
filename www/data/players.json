@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Alice",
+    "scores": [
+      {
+        "category": "food",
+        "points": 13,
+        "score": 0.38235294117647
+      }
+    ]
+  },
+  {
+    "name": "Bob",
+    "scores": [
+      {
+        "category": "food",
+        "points": 21,
+        "score": 0.61764705882353
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "taco",
+    "title": "Let's Taco Bout It",
+    "description": "",
+    "hint": "",
+    "answer": "dorito supreme",
+    "category": "food",
+    "points": 13,
+    "hidden": false
+  },
+  {
+    "id": "yum",
+    "title": "Mmmmm...",
+    "description": "The most delicious form of sugar",
+    "hint": "",
+    "answer": {
+      "type": "regex",
+      "regex": "^donuts$",
+      "isCaseSensitive": false
+    },
+    "category": "food",
+    "points": 21,
+    "hidden": false
+  }
+]

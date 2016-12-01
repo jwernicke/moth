@@ -1,0 +1,14 @@
+[
+  {
+    "player": "Bob",
+    "puzzle": "taco",
+    "dateSubmitted": "2016-10-19 12:01",
+    "answer": "dorito supreme"
+  },
+  {
+    "player": "Alice",
+    "puzzle": "yum",
+    "dateSubmitted": "2016-10-19 13:13",
+    "answer": "DONUTS"
+  }
+]
